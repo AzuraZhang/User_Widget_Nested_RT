@@ -1,0 +1,37 @@
+Name: Instances
+Type: FolderType
+Children:
+- Name: TankType1
+  Id: g=d2d7a424aa1affa7ca07009bad31c45c
+  Type: TankType1
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "WaterTank1"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: Level
+    Id: g=cd09a0dc6407de465556d44361be1193
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+- Name: TankType2
+  Id: g=519862a156a0dabcd56513c365e716b9
+  Type: TankType1
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "WaterTank2"
+  - Name: Temp
+    Id: g=7e9fd631504b0b57782104ec22f8423d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 200
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20

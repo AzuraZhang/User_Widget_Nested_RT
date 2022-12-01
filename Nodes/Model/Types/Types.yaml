@@ -1,0 +1,34 @@
+Name: Types
+Type: FolderType
+Children:
+- Name: TankType
+  Type: TankType1
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: TankType1
+  Id: g=77d0bf07445a3638dec9d5f6d5f35b04
+  Supertype: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
